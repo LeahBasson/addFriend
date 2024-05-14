@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: plum;
 }
 
 .wrapper{
@@ -7,17 +8,38 @@ body{
     justify-content: center;
     width: 50%;
     flex-direction: column;
+    margin: auto;
 }
 
 input{
     margin-bottom: 5px;
+    font-size: 16px;
+    padding: 10px;
 }
 
 button{
     margin-bottom: 5px;
+    font-size: 16px;
+    background-color: purple;
+    color: white;
+    padding: 10px 32px;
+}
+
+button:hover{
+    background-color: rgb(147, 28, 147);
 }
 
 a{
     text-decoration: none;
     color: black;
+    font-size: 16px;
+    color: white;
+}
+
+h1{
+    margin: auto;
+}
+
+label{
+    font-weight: bold;
 }
